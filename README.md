@@ -1,7 +1,5 @@
 # HASolGNN
-Hierarchical-Attention Graph Learning for Solubility Prediction.
-
-This repository contains the code for the reproducibility of the experiments presented in the paper "Hierarchical-Attention Graph Learning for Solubility Prediction". 
+This repository contains the codes and datasets for the reproducibility of the experiments presented in the paper "Hierarchical-Attention Graph Learning for Solubility Prediction". 
 
 This paper proposes HASolGNN, a hierarchical-attention graph neural networks for solubility prediction. (1) HASolGNN adopts a three-level hierarchical attention framework to characterize atom-bond level, molecular level, and interaction-graph level features. This allows a more comprehensive modeling of both intra-molecular and inter-molecular interactions for solute-solvent dissolution as a complex dynamic system. (2) To mitigate the impact of small annotated data, We also investigate the role of Large Language Models (LLMs), and introduce HASolGNN-LLMs, an LLM-enhanced counterpart that leverages LLMs to infer annotated features and embeddings to improve the representation learning. Our experiments verified that (1) HASolGNN outperforms the state-of-the-art methods in solubility prediction; and (2) HASolGNN-LLMs effectively exploit LLMs to enhance sparse annotated data, and further improves the accuracy.
 
