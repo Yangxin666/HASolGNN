@@ -22,6 +22,10 @@ To mitigate the challenge posed by small annotated datasets, We present __HASolG
   
 **Fig. 2: Overview of HASolGNN-LLMs Framework.**
 
+<p align="center"><img src="AE_ME_IE_Block_FM.png"></p>
+  
+**Fig. 3: Detailed View of the AE/ME/IE Bloack and Fusion mechanism.**
+
 ## Prerequisites
 Our code is based on Python3 (>= 3.11). The major libraries are listed as follows:
 * NumPy (>= 1.26.3)
