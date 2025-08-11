@@ -8,6 +8,9 @@ This paper proposes HASolGNN, a hierarchical-attention graph neural networks for
 All the code for the models described in the paper can be found in *codes. 
 We provide the datasets used in our experiments for users to validate our proposed methods located in: *Datasets.
 
+
+<h2 align=Left>HASolGNN in a nutshell (an overview of proposed techniques)</h2>
+
 We propose __HASolGNN__, an expressive framework that can capture hierarchical, multi-level interactions and patterns among
 atom, bond, and (inter- and intra-) molecular. HASolGNN enables solubility prediction across a wide range of solute-solvent pairs, irrespective of solvent types. HASolGNN achieves above through the integration of hierarchical attention mechanisms across three key components: the atom embedding (AE) block, the molecular embedding (ME) block, and the interaction-graph embedding (IE) block. Experimental results demonstrate that HASolGNN significantly outperforms the state-of-the-art graph neural networks methods, establishing new benchmarks in performance
 
